@@ -178,3 +178,12 @@ footer .container-small li:first-child{
     margin-bottom: .8em;
     font-size: 1.1rem;
 }
+
+
+
+
+
+/* parte nascosta */
+header nav{
+    display: none;
+}

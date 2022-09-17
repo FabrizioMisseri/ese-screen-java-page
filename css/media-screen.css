@@ -65,7 +65,49 @@
 /* ALTRA MEDIA QUERY */
 
 @media screen and (min-width: 768px){
+
+    /* HEADER */
+    .hidden{
+        display: none;
+    }
+
+    header .container-big{
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header .container-big nav{
+        display: inline-block;
+    }
+
+    header .container-big nav ul{
+        display: flex;
+        justify-content: flex-start;
+        color: white;
+        font-size: 1.5rem;
+    }
+
+    header .container-big nav li{
+        margin-right: .6rem;
+    }
+
+    #search{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        width: 40%;
+    }
+
+    #search input{
+        display: inline-block;
+        height: 2rem;
+        width: 60%;
+    }
+    /* / HEADER */
+
+
     
+
 }
 
 
