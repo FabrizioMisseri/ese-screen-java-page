@@ -1,0 +1,61 @@
+@media screen and (min-width: 768px){
+
+    /* main parte alta */
+    main .container-small{
+        width: 50%;
+    }
+
+    main section:first-child button{
+        width: auto;
+        padding-right: 3em;
+        padding-left: 3em;
+    }
+
+    main .container-small > div:first-child{
+        padding: 0;
+    }
+    /* fine parte alta */
+
+
+    /* main parte bassa */
+    main section:last-child .container-big{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1em;
+    }
+    
+    main section:last-child .container-big > div:last-child{
+        display: flex;
+        justify-content: flex-end;
+        
+    }
+     
+    main section:last-child .container-big > div:first-child{
+        margin-right: 1rem;
+        
+    }
+
+    main section:last-child .container-big p{
+        width: 38%;
+    }
+
+    .container-big{
+        width: 100%;
+        padding: 0 .5em;
+    }
+    /* fine */
+
+
+    /* footer */
+    footer .container-small ul li:first-child{
+        display: inline-block;
+        font-size: .8rem;
+        margin-right: .4em;
+    }
+
+    footer li{
+        margin-right: .4em;
+    }
+
+}
