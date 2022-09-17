@@ -1,4 +1,4 @@
-@media screen and (min-width: 768px){
+@media screen and (min-width: 480px){
 
     /* main parte alta */
     main .container-small{
@@ -59,3 +59,13 @@
     }
 
 }
+
+
+
+/* ALTRA MEDIA QUERY */
+
+@media screen and (min-width: 768px){
+    
+}
+
+
