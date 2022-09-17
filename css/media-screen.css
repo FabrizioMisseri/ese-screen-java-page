@@ -91,7 +91,8 @@
         margin-right: .6rem;
     }
 
-    #search{
+    header div#search{
+        display: inline-block;
         display: flex;
         align-items: center;
         justify-content: flex-end;
@@ -106,7 +107,7 @@
     /* / HEADER */
 
 
-    
+
 
 }
 

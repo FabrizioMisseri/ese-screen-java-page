@@ -184,6 +184,7 @@ footer .container-small li:first-child{
 
 
 /* parte nascosta */
-header nav{
+header nav ,
+header div#search{
     display: none;
 }
